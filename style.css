@@ -1,0 +1,15 @@
+.jumbotron {
+  background-image: url('./photo-1478720568477-152d9b164e26.jpeg');
+  background-size: cover;
+  height: 100vh;
+  padding: 5em;
+  font-family: 'Shrikhand', sans-serif;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+.list {
+  padding: 5em;
+}

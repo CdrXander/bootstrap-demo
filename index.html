@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="boot">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./style.css" media="screen" title="no title">
+    <title></title>
+  </head>
+  <body ng-controller="mainCtrl">
+
+    <div class="jumbotron">
+      <h1>Two Thumbs</h1>
+    </div>
+
+
+    <div class="list">
+    <input type="text" ng-model="movie.title" placeholder="Movie title">
+    <input type="text" ng-model="movie.rating" placeholder="Rating">
+    <button type="button" ng-click="addMovie(movie)">Add Movie</button>
+
+    <div ng-repeat="movie in movies">
+      <div class="movie">
+        <h2>{{movie.title}}</h2>
+        <h4>Rating: {{movie.rating}}</h4>
+      </div>
+    </div>
+</div>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+    <script type="text/javascript" src="./mainCtrl.js"></script>
+    <script type="text/javascript" src="./dataService.js"></script>
+
+  </body>
+</html>

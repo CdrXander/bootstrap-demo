@@ -22,11 +22,21 @@
   flex-direction: column;
   justify-content: center;
 }
-.movie-list:nth-child(2n+2) {
-  background: #ddd;
+.glyphicon {
+  top: 40%;
 }
-
-.modal img {
-  height: 200px;
-  width: 200px;
+.photo-bank {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.carousel, .item img {
+  width: 60vw;
+}
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  padding-top: 10vh;
 }

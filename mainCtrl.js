@@ -3,10 +3,6 @@ angular.module('boot')
 
     (function getDogs() {
       $scope.dogs = dataService.getDogs()
-      dataService.getPuppyPics().then(function (response) {
-        $scope.puppypics = response;
-        console.log(puppypics);
-      })
     }())
 
 

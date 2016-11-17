@@ -1,15 +1,32 @@
 .jumbotron {
-  background-image: url('./photo-1478720568477-152d9b164e26.jpeg');
+  background-image: url('./photo-1469899324414-c72bfb4d4161.jpeg');
   background-size: cover;
   height: 100vh;
-  padding: 5em;
-  font-family: 'Shrikhand', sans-serif;
 }
 
 .jumbotron h1 {
   color: white;
 }
 
-.list {
-  padding: 5em;
+.thumbnail img {
+  height: 200px;
+  width: 300px;
+}
+
+.well {
+  display: flex;
+  justify-content: center;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.movie-list:nth-child(2n+2) {
+  background: #ddd;
+}
+
+.modal img {
+  height: 200px;
+  width: 200px;
 }

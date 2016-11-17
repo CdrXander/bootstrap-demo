@@ -12,53 +12,55 @@
 
 <body ng-controller="mainCtrl">
 
-  <div class="jumbotron">
-    <div class="container">
+  <div class="">
+    <div class="">
       <h1>Puppy Love</h1>
     </div>
   </div>
-  <div class="container-fluid">
 
-    <div class="row well well-lg">
-      <div ng-repeat="dog in dogs" class="dog-card col-xs-6 col-md-3">
-        <a href="#" class="thumbnail" data-toggle="tooltip" data-placement="left" title="{{dog.name}}">
+
+  <div class="">
+
+    <div class="">
+      <div ng-repeat="dog in dogs" class="">
+        <a href="#" class="" title="{{dog.name}}">
           <img ng-src="{{dog.picture}}" alt="puppy picture" />
         </a>
         <h2>{{dog.name}}</h2>
-        <button class="btn btn-primary" ng-click="addLike(dog.id)">
-          Likes <span class="badge">{{dog.likes}}</span>
+        <button class="" ng-click="addLike(dog.id)">
+          Likes <span class="">{{dog.likes}}</span>
         </button>
       </div>
     </div>
 
-    <div class="container col-md-6">
+    <div class="">
 
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3 class="panel-title">Need more puppies?</h3>
+      <div class="">
+        <div class="">
+          <h3 class="">Need more puppies?</h3>
         </div>
-        <div class="panel-body">
-          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addModal">Add a Puppy</button>
+        <div class="">
+          <button type="button" class="" >Add a Puppy</button>
         </div>
       </div>
 
-      <div id="addModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
+      <div id="addModal" class="" >
+        <div class="">
           <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Add a Movie</h4>
+          <div class="">
+            <div class="">
+              <button type="button" class="close" >&times;</button>
+              <h4 class="">Add a Movie</h4>
             </div>
-            <div class="modal-body flex">
+            <div class="">
 
               <input type="text" ng-model="newPuppy.name" placeholder="Name">
               <input type="text" ng-model="newPuppy.picture" placeholder="Picture URL">
               <button type="button" ng-click="addPuppy(newPuppy)">Add Puppy</button>
 
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <div class="">
+              <button type="button" class="" >Close</button>
             </div>
           </div>
 
@@ -69,9 +71,9 @@
 
     <div class="photo-bank">
 
-      <div class="row">
-        <div class="col-md-11">
-          <div class="row">
+      <div class="">
+        <div class="">
+          <div class="">
             <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
               <img src="https://unsplash.it/280.jpg?image=251" class="img-fluid">
             </a>
@@ -82,7 +84,7 @@
               <img src="https://unsplash.it/280.jpg?image=253" class="img-fluid">
             </a>
           </div>
-          <div class="row">
+          <div class="">
             <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
               <img src="https://unsplash.it/280.jpg?image=254" class="img-fluid">
             </a>
@@ -97,53 +99,53 @@
       </div>
     </div>
 
-    <div class="container carousel-container">
+    <div class="carousel-container">
 
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <div id="puppy-carousel" class="" >
         <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <ol class="">
+          <li class=""></li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
+        <div class="">
+          <div class="">
             <img src="http://www.pamperedpetz.net/wp-content/uploads/2015/09/Puppy1.jpg" alt="...">
-            <div class="carousel-caption">
+            <div class="">
               Now those are what I call bedroom eyes.
             </div>
           </div>
-          <div class="item">
+          <div class="">
             <img src="http://cdn.skim.gs/image/upload/v1456344012/msi/Puppy_2_kbhb4a.jpg" alt="...">
-            <div class="carousel-caption">
+            <div class="">
               Stop. Just...stop.
             </div>
           </div>
-          <div class="item">
+          <div class="">
             <img src="http://static.boredpanda.com/blog/wp-content/uploads/2015/08/strange-puppy-lucky-hssv-adopt-christine-doblar-1.jpg" alt="...">
-            <div class="carousel-caption">
+            <div class="">
               Woa, what the
             </div>
           </div>
-          <div class="item">
+          <div class="">
             <img src="http://sitmeanssit.com/dog-training-mu/tulsa-oklahoma/files/2016/07/innocent-puppy-eyes.jpg" alt="...">
-            <div class="carousel-caption">
+            <div class="">
               That's more like it.
             </div>
           </div>
         </div>
 
         <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+        <a class="" href="#puppy-carousel">
+          <span class="" aria-hidden="true"></span>
+          <span class="">Previous</span>
         </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+        <a class="" href="#puppy-carousel">
+          <span class="" aria-hidden="true"></span>
+          <span class="">Next</span>
         </a>
       </div>
 
@@ -153,9 +155,12 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.js"></script>
     <script type="text/javascript">
+      // Tooltips
       $("body").tooltip({
         selector: '[data-toggle=tooltip]'
       });
+
+      // Lightbox
       $(document).on('click', '[data-toggle="lightbox"]', function(event) {
         event.preventDefault();
         $(this).ekkoLightbox();
